@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button onclick="document.getElementById('lightbulb').src='lightOn.png'">Turn on the light</button> 
-    <img id="lightbulb" src="lightOff.jpg" alt="" style="width:300px">
-    <button onclick="document.getElementById('lightbulb').src='lightOff.jpg'">Turn off the light</button> 
-    <script src="index.js"></script>  
+    <h1>Light Bulb</h1>
+    <button id="onButton" onclick="buttonToggle()">Turn on the light</button>
+    <img id="lightbulb" src="lightoff.jpg" alt="Light Bulb">
+    <button id="offButton" onclick="buttonToggle()">Turn off the light</button>
+    <button id="discoButton" onclick="discoButtonToggle()">Display disco colors</button>
+    <script src="index.js"></script>
 </body>
 </html>
